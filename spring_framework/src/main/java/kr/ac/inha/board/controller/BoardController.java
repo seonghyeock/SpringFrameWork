@@ -32,7 +32,7 @@ public class BoardController {
 	}
 	
 	@RequestMapping("/hello.do")
-	public String hellodo() {
+	public String hellodo() { 
 		return "hello";
 	}
 }
